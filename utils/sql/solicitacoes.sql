@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS solicitacoes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    url TEXT NOT NULL,
+    tipo TEXT NOT NULL,
+    descricao TEXT NOT NULL,
+    status TEXT NOT NULL,
+    dict_ TEXT NOT NULL
+);
